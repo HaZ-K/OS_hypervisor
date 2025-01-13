@@ -1,0 +1,5 @@
+# 移除已经被 Git 追踪的 .DS_Store 文件
+git rm --cached -r .DS_Store
+
+# 提交更改
+git commit -m "Remove .DS_Store files and update .gitignore"
